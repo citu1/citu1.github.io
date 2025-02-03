@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 2</title>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="shapes.js"></script>
+    <script src="asg2.js"></script>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="800" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <br>
+    <div>
+      <p id = "numdot">XXX</p>
+      <p style="display: inline;">Animate:</p>
+      <input type="button" id = "AnimationOn" value = "On" ></input>
+      <input type="button" id= "AnimationOff" value = "Off" ></input>
+      <br>
+      <label for="legSlide">Leg</label>
+      <input type="range" id="legSlide" name="legSlide" min="-10" max="45" />
+      <p style="display: inline;">Animation:</p>
+      <input type="button" id = "legAnimationOn" value = "On" ></input>
+      <input type="button" id= "legAnimationOff" value = "Off" ></input>
+      <br>
+      <label for="pawSlide">Paw</label>
+      <input type="range" id="pawSlide" name="pawSlide" min="-10" max="10" />
+      <p style="display: inline;">Animation:</p>
+      <input type="button" id = "pawAnimationOn" value = "On" ></input>
+      <input type="button" id= "pawAnimationOff" value = "Off" ></input>
+      <br>
+      <label for="angleSlide">(Can also use Mouse)Camera Angle:</label>
+      <input type="range" id="angleSlide" name="angleSlide" min="0" max="360" value="5" />
+    </div>
+    <br>
+    <div>
+      
+    </div>
+  </body>
+</html>
