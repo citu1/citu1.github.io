@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 4</title>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="cube.js"></script>
+    <script src="sphere.js"></script>
+    <script src="camera.js"></script>
+    <script src="asg4.js"></script>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <br>
+    <div>
+      <p id = "numdot">XXX</p>
+      <p style="display: inline;">Using World from Assignment 2 <br></p>
+      <p style="display: inline;">Normal:</p>
+      <input type="button" id = "normalOn" value = "On" ></input>
+      <input type="button" id= "normalOff" value = "Off" ></input>
+      <p style="display: inline;">Light:</p>
+      <input type="button" id = "lightOn" value = "On" ></input>
+      <input type="button" id= "lightOff" value = "Off" ></input>
+      <div>
+        <p style="display: inline;">Light Color:</p><br>
+        <label for="redS">Red</label>
+        <input type="range" id="redS" name="redS" min="0" max="20" />
+        <label for="greenS">Green</label>
+        <input type="range" id="greenS" name="greenS" min="0" max="20" />
+        <label for="blueS">Blue</label>
+        <input type="range" id="blueS" name="blueS" min="0" max="20" />
+      </div>
+      
+      <label for="angleSlide">Rotation:</label>
+      <input type="range" id="angleSlide" name="angleSlide" min="0" max="360" value="5" />
+      <br>
+      <label for="Lightx">Light X:</label>
+      <input type="range" id="lightx" name="LightX" min="-250" max="350" value="0" />
+      <label for="LightY">Light Y:</label>
+      <input type="range" id="lighty" name="LightY" min="-250" max="350" value="0" />
+      <label for="LightZ">Light Z:</label>
+      <input type="range" id="lightz" name="LightZ" min="-250" max="350" value="0" />
+    </div>
+    <br>
+    <div>
+      
+    </div>
+  </body>
+</html>
