@@ -10,3 +10,5 @@ Notes for Grader: Used code example in resources from Tutorial given by the prof
 Notes for Grader: Used code example in resources from Tutorial given by the professor for Assignment 4, searched for methods to  implement spotlight and altering the color of the lighting online 
 https://webgl2fundamentals.org/webgl/lessons/webgl-3d-lighting-spot.html
 https://www.youtube.com/watch?v=m6E0DHP5Myw
+
+Notes for Grader: Followed THREE JS tutorials from website, found models online
