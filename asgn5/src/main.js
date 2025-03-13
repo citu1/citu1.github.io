@@ -4,7 +4,7 @@ import { RectAreaLightUniformsLib } from 'three/addons/lights/RectAreaLightUnifo
 import { RectAreaLightHelper } from 'three/addons/helpers/RectAreaLightHelper.js';
 import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
 import {MTLLoader} from 'three/addons/loaders/MTLLoader.js';
-import { shadow } from 'three/tsl';
+//import { shadow } from 'three/tsl';
 
 function main() {
 	var moon_posx = 15;
